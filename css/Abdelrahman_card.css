@@ -1,0 +1,106 @@
+/* body { */
+/* margin: 10px; */
+/* border: 10px; */
+/* padding: 10px; */
+/* width: 4000px; */
+/* height: 4000px; */
+/* background-color: rgb(172, 178, 178); */
+/* border-color: aqua; */
+/* background-image: url(imags/designe-imags/backgrouns/backgroundjpg.jpg); */
+/* background-repeat: no-repeat; */
+/* background-position: center; */
+/* } */
+body {
+    background-color: #D9D9DC;
+}
+
+.background {
+    background-image: url(imags/designe-imags/backgrouns/background11.jpg);
+    margin: -9px;
+    width: 1520px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 1600px 500px;
+    /* background-size: cover; */
+}
+
+.main-title {
+    position: absolute;
+    /* left: 560px; */
+    /* bottom: 380px; */
+    margin-left: 608px;
+    margin-top: 190px;
+    color: white;
+    /* font-size: 20px; */
+
+}
+
+.info {
+    background-color: #F5F5F5;
+    margin: 100px 300px;
+    width: 850px;
+    height: 650px;
+    display: inline-block;
+}
+
+.personal-imag {
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid black; */
+    border-radius: 1000%;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.typed-info {
+    text-align: center;
+    font-size: 10px;
+
+
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.link {
+    font-size: 20px;
+}
+
+.facebook {
+    display: inline;
+}
+
+.facebook-icon {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 200px;
+}
+
+.Twitter-icon {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-bottom: 100px;
+    margin-right: 22px;
+    margin-top: -47px;
+}
+
+.linkedin-icon {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-bottom: 111px;
+    margin-right: -131px;
+    margin-top: -189px;
+}
