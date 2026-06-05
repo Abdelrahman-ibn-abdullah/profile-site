@@ -1,0 +1,129 @@
+/* ===== RESET & BASE ===== */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    background-color: #d9d9dc;
+    line-height: 1.5;
+    color: #222;
+}
+
+/* ===== HERO ===== */
+.hero {
+    background-image: url(imags/designe-imags/backgrouns/background11.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    /* dynamic height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+}
+
+.hero-content h1 {
+    font-size: clamp(2rem, 5vw, 4rem);
+    /* responsive font */
+    margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    opacity: 0.9;
+}
+
+/* ===== PROFILE CARD ===== */
+.profile-card {
+    max-width: 800px;
+    margin: -4rem auto 3rem;
+    /* overlap hero slightly */
+    background-color: #f5f5f5;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+/* Profile picture */
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    /* perfect circle */
+    object-fit: cover;
+    border: 4px solid white;
+    margin-top: -110px;
+    /* pull it up over the card edge */
+    background: #f5f5f5;
+    /* same as card background for safety */
+}
+
+/* Profile info */
+.profile-info h2 {
+    font-size: clamp(2rem, 5vw, 2.5rem);
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.role {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.profile-info hr {
+    width: 50%;
+    margin: 1.5rem auto;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+/* Blog link */
+.blog-link {
+    display: inline-block;
+    margin: 1rem 0;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #0a66c2;
+    border-radius: 2rem;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.blog-link:hover {
+    background-color: #004182;
+}
+
+/* Social links (using flex) */
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    padding: 0;
+}
+
+.social-links a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.social-links a:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
